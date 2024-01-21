@@ -1,3 +1,3 @@
-import {log} from 'console';
+import {greet} from "./greeting.js";
 
-log('Hi there! This is all working :)')
+console.log(greet('Elias'))

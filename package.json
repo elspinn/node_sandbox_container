@@ -5,8 +5,10 @@
   "repository": "git@github.com:elspinn/node_ts_template.git",
   "author": "Elias Spinn <elspinn@gmail.com>",
   "license": "MIT",
+  "type": "module",
   "scripts": {
-    "dev": "nodemon ./src/index.ts"
+    "dev": "nodemon ./src/index.ts",
+    "ts-test": "node --test --loader ts-node/esm ./test/*.test.ts"
   },
   "devDependencies": {
     "@types/node": "^20.11.5",
