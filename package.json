@@ -5,6 +5,9 @@
   "repository": "git@github.com:elspinn/node_ts_template.git",
   "author": "Elias Spinn <elspinn@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon ./src/index.ts"
+  },
   "devDependencies": {
     "@types/node": "^20.11.5",
     "ts-node": "^10.9.2",
