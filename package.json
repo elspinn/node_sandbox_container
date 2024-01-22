@@ -7,15 +7,13 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "dev": "nodemon ./src/index.ts",
+    "dev": "tsx watch src",
     "ts-test": "node --test --loader ts-node/esm ./test/*.test.ts"
   },
   "devDependencies": {
     "@types/node": "^20.11.5",
-    "ts-node": "^10.9.2",
+    "tsx": "^4.7.0",
     "typescript": "^5.3.3"
   },
-  "dependencies": {
-    "nodemon": "^3.0.3"
-  }
+  "dependencies": {}
 }
