@@ -5,7 +5,6 @@
   "repository": "git@github.com:elspinn/node_ts_template.git",
   "author": "Elias Spinn <elspinn@gmail.com>",
   "license": "MIT",
-  "type": "module",
   "scripts": {
     "dev": "tsx watch src",
     "ts-test": "node --test --loader ts-node/esm ./test/*.test.ts"

@@ -1,12 +1,29 @@
 {
   "compilerOptions": {
+    //This is not a complete template: it only show relevant module-related settings
+    //Be sure to set other important options like 'target', 'lib', and 'strict'
+
+    //Required
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
     "esModuleInterop": true,
-    "module": "NodeNext",
-    "moduleResolution": "NodeNext",
+
+    //Consult your bundler's documentation
+    "customConditions": ["module"],
+
+    //Recommended
+    "noEmit": true,
+    "allowImportingTsExtensions": true,
+    "allowArbitraryExtensions": true,
+    "verbatimModuleSyntax": true,
+
+    //For creating libraries
+    "target": "ES2020", // set to the *lowest* target
     "strict": true,
+    "declaration": true,
     "sourceMap": true,
-    "target": "ESNext",
-    "outDir": "dist"
+    "declarationMap": true,
+    "outDir": "dist",
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules"],
