@@ -6,7 +6,7 @@
   "author": "Elias Spinn <elspinn@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon ./src/index.ts"
+    "dev": "tsx watch src"
   },
   "devDependencies": {
     "@types/node": "^20.11.5",
