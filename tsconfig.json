@@ -5,7 +5,7 @@
 
     //Required
     "module": "NodeNext",
-    "moduleResolution": "Bundler",
+    "moduleResolution": "NodeNext",
     "esModuleInterop": true,
 
     //Consult your bundler's documentation
@@ -16,7 +16,7 @@
     "noEmit": true, // or `emitDeclarationOnly`
     "allowImportingTsExtensions": true,
     "allowArbitraryExtensions": true,
-    "verbatimModuleSyntax": true, //or `isolatedModules`
+    "verbatimModuleSyntax": false, //or `isolatedModules`
 
     "strict": true,
     "target": "ES2020",
